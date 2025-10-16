@@ -1,0 +1,8 @@
+Bottom: 8752b554ad1599e5094312a9d8aed25a805ba88d
+Top:    8752b554ad1599e5094312a9d8aed25a805ba88d
+Author: sss <sss@karma>
+Date:   2025-10-16 09:56:54 -0400
+
+Fix some cmake developer warnings.
+
+Set policies CMP0144 and CMP0167 to avoid warnings from cmake.
