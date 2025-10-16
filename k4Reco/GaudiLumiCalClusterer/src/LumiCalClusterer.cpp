@@ -253,22 +253,19 @@ bool LumiCalClustererClass::setGeometryDD4hep() {
     m_beamCrossingAngle = 2.0 * fabs(atan(glob.x() / glob.z()) / dd4hep::rad);
     if (glob.z() > 0.0) {
     } else {
-      const auto& backwardCalo = &it->second.nominal().worldTransformation();
+      TGeoHMatrix tempMat = it->second.nominal().worldTransformation();
 
       // get phi rotation from global to local transformation
-      TGeoHMatrix* tempMat = (TGeoHMatrix*)backwardCalo->Clone();
       double nulltr[] = {0.0, 0.0, 0.0};
       // undo backward and crossing angle rotation
-      tempMat->SetTranslation(nulltr);
+      tempMat.SetTranslation(nulltr);
       // root matrices need degrees as argument
-      tempMat->RotateY(m_beamCrossingAngle / 2.0 * 180 / M_PI);
-      tempMat->RotateY(-180.0);
+      tempMat.RotateY(m_beamCrossingAngle / 2.0 * 180 / M_PI);
+      tempMat.RotateY(-180.0);
       double local[] = {0.0, 1.0, 0.0};
       double global[] = {0.0, 0.0, 0.0};
 
-      tempMat->LocalToMaster(local, global);
-
-      delete tempMat;
+      tempMat.LocalToMaster(local, global);
     }
   }
 
