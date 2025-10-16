@@ -20,6 +20,9 @@ cmake_minimum_required(VERSION 3.23)
 
 project(k4Reco LANGUAGES CXX)
 
+cmake_policy(SET CMP0144 NEW)
+cmake_policy(SET CMP0167 NEW)
+
 # please keep this layout for version setting, used by the automatic tagging script
 set(${PROJECT_NAME}_VERSION_MAJOR 0)
 set(${PROJECT_NAME}_VERSION_MINOR 2)
