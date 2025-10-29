@@ -1,31 +1,31 @@
 {
   "version": 5,
-  "prev": "86d052a1722b78c6a4cad95afbe5428fd8ad15d2",
-  "head": "3e45d7ea38a833c5c7ae9f4c01afcaa0ce0b00bd",
-  "applied": [],
-  "unapplied": [
+  "prev": "f2750a95bcf6f496682b010931c699a64a990fdc",
+  "head": "d27489a4fb8a7ac044083eb4106e92e7326b83ac",
+  "applied": [
     "message",
     "cmakewarn",
     "danglewarn",
     "danglewarn-fix",
     "constGeo"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
-      "oid": "49aa70553619f2e4ea41fab65dfad43d9403f7f9"
+      "oid": "2748c51e9f645e868fca6d414a2a3541003a4c39"
     },
     "constGeo": {
-      "oid": "1f344d6971e35db9e9b383c021908414fe173a2d"
+      "oid": "d27489a4fb8a7ac044083eb4106e92e7326b83ac"
     },
     "danglewarn": {
-      "oid": "9d496346b3a48921ac9a3a78d497988e72039521"
+      "oid": "b7eaa4b6a73fc76059766106a133e2ae29dc04ce"
     },
     "danglewarn-fix": {
-      "oid": "7d4ecd4499dc11912e7f9fbe1fcc2142d9ce774b"
+      "oid": "b8dcfe2dea742857c93ce6d690186d1f1c9fe1c1"
     },
     "message": {
-      "oid": "1046775c27f99dd926bea7864e6a30037be84fba"
+      "oid": "fe5e06b8963edebf150d5fb44f4a1c8416cb56f5"
     }
   }
 }
