@@ -1,0 +1,6 @@
+Bottom: 0b4118dfcd2481b3fed1e647a8c8419a9fb5e69f
+Top:    4cbd89c15df1a64e96992b4e2b5863fcc06ac8b8
+Author: sss <sss@karma>
+Date:   2025-11-05 21:38:37 -0500
+
+Comment out messages during compilation.

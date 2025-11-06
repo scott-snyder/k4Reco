@@ -1,0 +1,11 @@
+Bottom: 7fcbb1af09c6992c9b4681bb0aa0dea2ccbb4e28
+Top:    ede77d0d2415b79a68d6115a69b8cb7e378e0ff3
+Author: sss <sss@karma>
+Date:   2025-11-05 21:38:37 -0500
+
+Fix dangling reference warnings.
+
+This warning is currently suppressed in the cmake files.
+But this is a warning which one really would not want to suppress --- better
+to rearrange the code to avoid it.  So go ahead and fix the instances
+of that which we get in this package.

@@ -1,9 +1,31 @@
 {
   "version": 5,
-  "prev": null,
-  "head": "3e45d7ea38a833c5c7ae9f4c01afcaa0ce0b00bd",
-  "applied": [],
+  "prev": "080693b58c081c7b497e8200debe02575a2e47fd",
+  "head": "a6dc5a37cb9afba1023c703377aa49116e621cac",
+  "applied": [
+    "message",
+    "cmakewarn",
+    "danglewarn",
+    "danglewarn-fix",
+    "constGeo"
+  ],
   "unapplied": [],
   "hidden": [],
-  "patches": {}
+  "patches": {
+    "cmakewarn": {
+      "oid": "8aa452f2e8e7cd9d9390797c4012f390d41b2c44"
+    },
+    "constGeo": {
+      "oid": "a6dc5a37cb9afba1023c703377aa49116e621cac"
+    },
+    "danglewarn": {
+      "oid": "64c19bdf5468e71e4b17a07c7a340fc3f218e218"
+    },
+    "danglewarn-fix": {
+      "oid": "6847539c3f471e1b82930af04d5dbdb336af1ee7"
+    },
+    "message": {
+      "oid": "ea2ac36f43e601d2080efff23cc742cde0a7fbf6"
+    }
+  }
 }

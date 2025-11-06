@@ -1,0 +1,8 @@
+Bottom: 4ddbe62d50ac714eeab45881c48cad1323a2f5ac
+Top:    7fcbb1af09c6992c9b4681bb0aa0dea2ccbb4e28
+Author: sss <sss@karma>
+Date:   2025-11-05 21:38:37 -0500
+
+Don't disable gcc's -Wdangling-reference.
+
+Remove -Wno-dangling-reference option for gcc.
