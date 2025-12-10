@@ -1,23 +1,22 @@
 {
   "version": 5,
-  "prev": "b4e6eb66cb7682adcc5529f414bae9117db1945d",
-  "head": "16ccdfdc0f4ffcc4cd75bf329e3a19aff0279081",
+  "prev": "429d15325b601ead1bd0a970726bb8ebac74aa0d",
+  "head": "91fb1c9b86c4708ef7a32d016b147d0046b788a0",
   "applied": [
     "message",
     "cmakewarn",
     "danglewarn",
-    "danglewarn-fix"
-  ],
-  "unapplied": [
+    "danglewarn-fix",
     "constGeo"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
       "oid": "55aab601cb16fde2cae168842d9a45e7a58f828e"
     },
     "constGeo": {
-      "oid": "a6dc5a37cb9afba1023c703377aa49116e621cac"
+      "oid": "91fb1c9b86c4708ef7a32d016b147d0046b788a0"
     },
     "danglewarn": {
       "oid": "d9d663c3e25cde3a251ffc055e0495c793979733"
