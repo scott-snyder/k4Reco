@@ -1,14 +1,14 @@
 {
   "version": 5,
-  "prev": "7e9029d0b1a9d4b7fc23f0df0896989401506751",
-  "head": "7429e98afd686cfbdf09f5a60f0299b76f48ef42",
-  "applied": [],
-  "unapplied": [
+  "prev": "31d62b3d2fda79706013cff1a295148fdc6a4ccf",
+  "head": "865ba4536a873ce2ce15b2c33c698644d6ef473a",
+  "applied": [
     "message",
     "cmakewarn",
     "danglewarn-fix",
     "constGeo"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
