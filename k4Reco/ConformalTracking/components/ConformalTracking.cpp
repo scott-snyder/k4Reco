@@ -16,6 +16,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#if __GNUC__ >= 16
+# pragma GCC diagnostic ignored "-Warray-bounds"
+#endif
 #include "ConformalTracking.h"
 
 #include "GaudiDDKalTest.h"
