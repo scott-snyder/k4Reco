@@ -1,8 +1,9 @@
 {
   "version": 5,
-  "prev": "35cceb62cd73982c695247763e277d7ca898449f",
-  "head": "8d222ed7dad584133a9497c78e5c6fa3659047f1",
-  "applied": [
+  "prev": "eb6a92ed0d9d8449270b4a1ffa7c841f14fbc25d",
+  "head": "7429e98afd686cfbdf09f5a60f0299b76f48ef42",
+  "applied": [],
+  "unapplied": [
     "message",
     "cmakewarn",
     "danglewarn-fix",
@@ -10,7 +11,6 @@
     "gccbug-newxx",
     "cxx26"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
