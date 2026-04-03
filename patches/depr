@@ -1,0 +1,8 @@
+Bottom: 5c691d1838dff47684a0a4e29b55010fc34ac668
+Top:    5c691d1838dff47684a0a4e29b55010fc34ac668
+Author: sss <sss@karma>
+Date:   2026-04-03 16:53:24 -0400
+
+Deprecation fix.
+
+Avoid use of deprecated getParameter call.

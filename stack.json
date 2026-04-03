@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "38c8866f796e1978e57b3572a7d45d4cdb77eb31",
-  "head": "8a4c03d23d89702921d376c8b06cbd8c7fcf8719",
+  "prev": "f329269aca787112f723dd3365e83876c3f6fc6a",
+  "head": "6cb8f8b843608ad7ca47f928d0d77059f71532fa",
   "applied": [
     "message",
     "cmakewarn",
     "danglewarn-fix",
     "constGeo",
-    "gccbug-newxx"
+    "gccbug-newxx",
+    "depr"
   ],
   "unapplied": [],
   "hidden": [],
@@ -20,6 +21,9 @@
     },
     "danglewarn-fix": {
       "oid": "6e5f7cd6173b5998fc5bcf77547805e2b0c0f5ac"
+    },
+    "depr": {
+      "oid": "6cb8f8b843608ad7ca47f928d0d77059f71532fa"
     },
     "gccbug-newxx": {
       "oid": "8a4c03d23d89702921d376c8b06cbd8c7fcf8719"
