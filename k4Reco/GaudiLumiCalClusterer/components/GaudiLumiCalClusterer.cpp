@@ -52,7 +52,7 @@ StatusCode GaudiLumiCalClusterer::initialize() {
 
   m_lumiCalClusterer = std::make_unique<LumiCalClustererClass>(this, m_geoSvc);
 
-  const auto maybeParam = k4FWCore::getParameter<std::string>(inputLocations(0)[0] + "__CellIDEncoding");
+  const auto maybeParam = k4FWCore::getParameter<std::string>(inputLocations(0)[0] + "__CellIDEncoding", this);
   const auto initString = maybeParam.value();
 
   m_lumiCalClusterer->createDecoder(initString);
