@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "2248501d0c280bdcfd1efe7a24a98a529024cfd7",
-  "head": "a52b8a5cbf16b7eb806e580c8b438c36cdcf96fa",
+  "prev": "a3134d4936d9f319080188cd4cc5c2197b34bea4",
+  "head": "78259ab63ae10d54d167a59e005476aa0f776bb6",
   "applied": [
     "message",
     "cmakewarn",
     "danglewarn-fix",
-    "constGeo",
     "gccbug-newxx"
   ],
   "unapplied": [],
@@ -15,14 +14,11 @@
     "cmakewarn": {
       "oid": "f042a2ee63e3ef7e6a7ad24dc06259a4f4275361"
     },
-    "constGeo": {
-      "oid": "6a948ef972b0cfa51dc4b3ee632bda0a7fc23e1c"
-    },
     "danglewarn-fix": {
       "oid": "da864491bc84090c2bf20064f61f7422faef7542"
     },
     "gccbug-newxx": {
-      "oid": "a52b8a5cbf16b7eb806e580c8b438c36cdcf96fa"
+      "oid": "78259ab63ae10d54d167a59e005476aa0f776bb6"
     },
     "message": {
       "oid": "512ae7e120bdfd52807194d85f4c72c99cec89da"
