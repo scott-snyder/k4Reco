@@ -1,27 +1,27 @@
 {
   "version": 5,
-  "prev": "8a8c1f96cd89e903d23cc444af5fea886d921f60",
-  "head": "c33cb854a6fdcbf44834b4f47acba0408f28d7b5",
-  "applied": [],
-  "unapplied": [
+  "prev": "bf272caa9662319db8642d2e1ea4c7ebe953111b",
+  "head": "f539dd106f653e57d25687b2cd2481faab4fa1df",
+  "applied": [
     "message",
     "cmakewarn",
     "danglewarn-fix",
     "gccbug-newxx"
   ],
+  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
-      "oid": "f042a2ee63e3ef7e6a7ad24dc06259a4f4275361"
+      "oid": "704073ce8b2c4b14509620cbe9ff968dfb771324"
     },
     "danglewarn-fix": {
-      "oid": "da864491bc84090c2bf20064f61f7422faef7542"
+      "oid": "1a9666541e2010486cdc6a52bd19069f894d56b1"
     },
     "gccbug-newxx": {
-      "oid": "78259ab63ae10d54d167a59e005476aa0f776bb6"
+      "oid": "f539dd106f653e57d25687b2cd2481faab4fa1df"
     },
     "message": {
-      "oid": "512ae7e120bdfd52807194d85f4c72c99cec89da"
+      "oid": "13ffb032b1a0ad3f957cc2aa4fa2c66d99c9d8df"
     }
   }
 }
