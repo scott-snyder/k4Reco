@@ -1,14 +1,14 @@
 {
   "version": 5,
-  "prev": "a3134d4936d9f319080188cd4cc5c2197b34bea4",
-  "head": "78259ab63ae10d54d167a59e005476aa0f776bb6",
-  "applied": [
+  "prev": "c6a32f329a514f95b5a568e73a3ed94be882835d",
+  "head": "9116243836ed51bc7d5b8024e49cf3fc248c1262",
+  "applied": [],
+  "unapplied": [
     "message",
     "cmakewarn",
     "danglewarn-fix",
     "gccbug-newxx"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
